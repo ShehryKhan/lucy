@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>LUCY</title>
+  </head>
+  <body>
+    
+      
+        <div class="main-content">
+
+            <div class="back-to-top">
+                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Back to Top">
+                    <a href="#" id="back-to-top-btn" class="fa-sharp fa-solid fa-plane-up"></a>
+                </button>
+            </div>
+
+            <button type="button" class="btn location" data-bs-toggle="tooltip" data-bs-placement="top" title="Our Location">
+                <a href="https://goo.gl/maps/MKP6e4a6WHLRXrV57" id="back-to-top-btn2" class="fa-sharp fa-solid fa-location-dot"></a>
+            </button>
+
+          <section class="container">
+              <div class="navbar">
+                <a data-aos="fade-right" data-aos-duration="1500" href="##"><span>LUCY</span></a>
+                    <i onclick="openNav()" class="fa-solid fa-bars" data-aos="fade-left" data-aos-duration="1500"></i>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="nav-tab">
+                          <a href="#about" onclick="about()">About</a>
+                          <a href="#services" onclick="services()">Services</a>
+                          <a href="#testimonials" onclick="testimonials()">Testimonials</a>
+                          <a href="#portfolio" onclick="portfolio()">Portfolio</a>
+                          <a href="#team" onclick="team()">team</a>
+                          <a href="#products" onclick="products()">products</a>
+                          <a href="#contact" onclick="products()">Contact</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section class="banner">
+                <div class="my-slider">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-swiper-autoplay="7500"><img src="./assets/images/banner1.jpg" alt=""></div>
+                            <div class="swiper-slide" data-swiper-autoplay="7500"><img src="./assets/images/banner2.jpg" alt=""></div>
+                            <div class="swiper-slide" data-swiper-autoplay="7500"><img src="./assets/images/banner3.jpeg" alt=""></div>
+                            <div class="swiper-slide" data-swiper-autoplay="7500"><img src="./assets/images/banner4.jpg" alt=""></div>
+                            <div class="swiper-slide" data-swiper-autoplay="7500"><img src="./assets/images/banner5.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="tagline"  data-aos="fade-bottom" data-aos-duration="2500">
+                            <div class="container">
+                                <h1>LUCY</h1>
+                                <p>Bring your Vision to life with LUCY <br>the Multi-purpose HTML/CSS theme for all your Creative projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            <section class="about" id="about">
+                <div class="container">
+                    <h2 data-aos="fade-down" data-aos-duration="500" data-aos-delay="300" class="section-head">About Us!</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="image"><img src="./assets/images/banner5.jpg" alt="">
+                                <a href="./assets/videos/template1.mp4" loop>
+                                    <div class="img-cap">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="about-inner">
+                                <h3>Want to Know About Us?</h3>
+                                <p>Welcome to LUCY, an elegant HTML CSS theme designed for those who appreciate simplicity and functionality with small and decent animations. Our theme features a clean and minimalistic layout that allows your content to shine, with plenty of customizable options to make it your own.</p>
+                                <p>LUCY is the perfect solution to showcase your work with responsive design and cross-browser compatibility, your website will look great on any device or platform.</p>
+                                <!-- <a href="./assets/videos/template1.mp4" loop>Watch Now <i class="fa-solid fa-play"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                        
+            
+
+            <section class="services" id="services">
+                <div class="container">
+                    <h2 data-aos="fade-down" data-aos-duration="500" data-aos-delay="500" class="section-head">Services We Provide!</h2>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-inner" data-aos="fade-right" data-aos-duration="500"> 
+                                <div class="icon" data-aos="fade-right" data-aos-delay="1000"><i class="fa-solid fa-handshake"></i></div>
+                                <h3>Business Consulting</h3>
+                                <p>
+                                    Offer a professional and streamlined website solution for businesses looking for consulting services.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-inner" data-aos="fade-down" data-aos-duration="500">
+                                <div class="icon" data-aos="fade-right" data-aos-delay="1100"><i class="fa-solid fa-fill-drip"></i></div>
+                                <h3>Creative Services</h3>
+                                <p>
+                                    Target creative professionals designers, writers, and artists with a visually striking theme that showcases their work.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-inner" data-aos="fade-down" data-aos-duration="500">
+                                <div class="icon" data-aos="fade-right" data-aos-delay="1200"><i class="fa-solid fa-truck-fast"></i></div>
+                                <h3>E-commerce Services</h3>
+                                <p>
+                                    Create an online store with a sleek and user-friendly layout that emphasizes products and ease of purchase.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-inner" data-aos="fade-left" data-aos-duration="500">
+                                <div class="icon" data-aos="fade-right" data-aos-delay="1300"><i class="fa-solid fa-laptop-code"></i></div>
+                                <h3>Technology Providers</h3>
+                                <p>
+                                    Offer a modern and innovative theme for technology startups or software companies looking to showcase their products.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="testimonials" id="testimonials">
+                <div class="container">
+                    <h2 data-aos="fade-down" data-aos-duration="500" data-aos-delay="500" class="section-head">What Our Clients Think About LUCY?</h2>
+    
+                    <div class="reviews">
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial1.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">Jason Olly <span>Founder</span></h3>
+                                <p>I've been using the LUCY theme for over a year now, and it's been amazing. The design is clean and professional, with minimal and decent animations. I've received so many compliments on my website's look and feel, and I owe it all to LUCY.</p>
+                              </div>
+                              
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial2.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">Morny Flower <span>Founder</span></h3>
+                                <p>I needed a website that would showcase my work in the best light possible. LUCY was the perfect choice. The minimalistic design gained my customers,and the responsive layout meant that they looked great on any device.</p>
+                              </div>
+                              
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial3.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">Hikks Denissa <span>Founder</span></h3>
+                                <p>I've used a lot of different themes over the years, but LUCY is by far my favorite. The design is modern, and the customization options are endless. Plus, the customer support team is always there to help me with any questions or issues I have.</p>
+                              </div>
+                              
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial4.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">Methew Tate <span>Founder</span></h3>
+                                <p>LUCY is the best theme I've ever used for my business. The clean and professional design helped me to establish a strong online presence, and the easy-to-use customization options made it simple to tailor the theme to my specific needs.</p>
+                              </div>
+                              
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial5.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">Broad Smith <span>Founder</span></h3>
+                                <p>I was hesitant to purchase a theme for my website at first, but LUCY exceeded all of my expectations. The layout is intuitive and easy to navigate, and the design is modern and stylish.I'm Fully Satisfied and High recommending to everyone.</p>
+                              </div>
+                              
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial6.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">Nicolhas Harvey <span>Founder</span></h3>
+                                <p>LUCY is hands down the best theme I've ever used for my personal blog. The layout is beautiful and easy to read, and the customizable options allowed me to make it my own. I've seen a significant increase in traffic since switching to LUCY</p>
+                              </div>
+                              
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial7.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">Sanam Sethi <span>Founder</span></h3>
+                                <p>I've been using LUCY for my portfolio website, and it's been a game-changer. The design is clean and professional, Plus, the customization options are endless, allowing me to tailor the theme to fit my brand perfectly. Highy Recommending!</p>
+                              </div>
+                              
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial8.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">BZ Skillier <span>Founder</span></h3>
+                                <p>LUCY has made my job as a web designer so much easier. The design is beautiful and modern, and the customization options allow me to create unique and stunning websites for my clients. I couldn't be happier with LUCY.</p>
+                              </div>
+                              
+                              <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="./assets/images/testimonial9.jpg" alt="">
+                                    <div class="social-media">
+                                        <div class="icons">
+                                            <a href="" class="fa-brands fa-instagram"></a>
+                                            <a href="" class="fa-brands fa-facebook-f"></a>
+                                            <a href="" class="fa-brands fa-twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="name">Jack Polls <span>Founder</span></h3>
+                                <p>LUCY is the perfect theme for anyone looking for a simple and elegant website. The layout is easy to navigate, and the design is sleek and modern. I've received so many compliments on my website's appearance since switching to LUCY</p>
+                              </div>
+                            </div>
+                            
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <h2 data-aos="fade-down" data-aos-duration="500" data-aos-delay="500" class="section-head">Our Portfolio</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="portfolio-inner">
+
+                                    <div>
+                                        <i class="fa-solid fa-sitemap" data-aos="fade-right" data-aos-duration="300" data-aos-delay="300"></i> 
+                                        <h3>Overall Customers</h3>loremipsumoloritemmit
+                                        <p>64.7k Customers in Last 3 months</p>
+                                    </div>
+
+
+                                    <div>
+                                        <i class="fa-solid fa-user" data-aos="fade-right" data-aos-duration="300" data-aos-delay="400"></i>
+                                        <h3>Satisfied Customers</h3>
+                                        <p>97.4% Fully Satisfied Customers</p>
+                                    </div>
+
+
+                                    <div>
+                                        <i class="fa-solid fa-star" data-aos="fade-right" data-aos-duration="300" data-aos-delay="500"></i>
+                                        <h3>Permanent Clients</h3>
+                                        <p>1.5k Happy Clients</p>
+                                    </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="image"><img src="./assets/images/port-img.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            
+            <section class="team" id="team">
+                <div class="container">
+                    <h2 data-aos="fade-down" data-aos-duration="500" data-aos-delay="500" class="section-head">Our Team</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="swiper-section" style="width: 90%; margin: 0 auto;">
+                                <div class="swiper mySwiper3">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                                        <img src="./assets/images/team1.jpg" />
+                                        <div class="img-detail">
+                                            <h4>Our Developers</h4>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img src="./assets/images/team2.jpg" />
+                                        <div class="img-detail">
+                                            <h4>Our Designers</h4>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img src="./assets/images/team3.jpg" />
+                                        <div class="img-detail">
+                                            <h4>Animators & Artists</h4>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img src="./assets/images/team4.jpg" />
+                                        <div class="img-detail">
+                                            <h4>Project Managers</h4>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>
+                                A dynamic team of experts with diverse skill sets, experiences, and backgrounds, our team always become ready to deliver exceptional services and solutions to clients.
+
+                            </p>
+                            
+                            <p>
+                                Our team consists of talented, dedicated and passionate Developers, Designers, Animators, Artists, Project Managers, and more. We are committed to staying ahead of the curve with the latest advancements in technology and continuously improving our skills to provide the best services possible.
+                            </p>
+
+                            <p>
+                                We value collaboration, open communication, and a customer-first approach in everything we do. Our team works together seamlessly to tackle complex challenges and deliver innovative solutions that exceed our clients' expectations.
+                            </p>
+
+                            <p>
+                                We pride ourselves on building strong relationships with our clients and being a trusted partner throughout the entire project lifecycle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="products" id="products">
+                <div class="container">
+                    <h2 data-aos="fade-down" data-aos-duration="500" data-aos-delay="500" class="section-head">Our Products</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="image large">
+                                <img src="./assets/images/product7.jpg" alt="">
+                                
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+                            <div class="image small">
+                                <img src="./assets/images/product1.jpg" alt="">
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+                            <div class="image medium">
+                                <img src="./assets/images/product4.jpeg" alt="">
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="image medium">
+                                <img src="./assets/images/product5.png" alt="">
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+                            <div class="image large">
+                                <img src="./assets/images/product8.jpg" alt="">
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+                            <div class="image small">
+                                <img src="./assets/images/product2.jpg" alt="">
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="image large">
+                                <img src="./assets/images/product9.jpg" alt="">
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+                            <div class="image small">
+                                <img src="./assets/images/product3.jpg" alt="">
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+                            <div class="image medium">
+                                <img src="./assets/images/product6.png" alt="">
+                                <div class="icon">
+                                    <a href="##" class="fa-solid fa-bookmark"></a>
+                                    <a href="##" class="fa-solid fa-share-nodes"></a>
+                                    <a href="##" class="fa-solid fa-cart-shopping"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contact" id="contact">
+                <div class="container">
+                    <h2 data-aos="fade-down" data-aos-duration="500" data-aos-delay="500" class="section-head">Want to Reach Out to Us?</h2>
+                    <p>Fill out the form below to deliver your message to us and feel free to Visit our Social Media Pages for more Upcomming Updates!
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <form>
+                                <input type="text" name="Name" placeholder="Enter Name" required>
+                                <input type="email" name="Email" placeholder="someone@gmail.com" required>
+                                <input type="tel" name="Phone" placeholder="Phone Number" required>
+                                <input type="text" name="message" placeholder="Write message here..." required>
+                                <div class="submit"><input type="submit" name="Submit"><i class="fa-solid fa-arrow-right"></i></div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="media">
+                                
+                                
+                                <h3 data-aos="fade-right" data-aos-duration="500" data-aos-delay="50">Email Address</h3>
+                                <a class="font" href="mailto:admin@lucy.com">admin@lucy.com</a>
+                                <a class="font" href="mailto:support@lucy.com">support@lucy.com</a>
+                                
+                                
+                                <h3 data-aos="fade-left" data-aos-duration="500" data-aos-delay="50">Phone Numbers</h3>
+                                <a class="font" href="tel:+1 92 677637638">+1 92 677637638</a>
+                                <a class="font" href="tel:+1 92 348972172">+1 92 348972172</a>
+
+
+                                <h3 data-aos="fade-left" data-aos-duration="500" data-aos-delay="50">Social Media Pages</h3>
+                                <a href="##" class="fa-brands fa-instagram"></a>
+                                <a href="##" class="fa-brands fa-facebook-f"></a>
+                                <a href="##" class="fa-brands fa-twitter"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="copyrights">
+                <span>© 2023 All rights are reserved by <a href="##">LUCY</a></span>
+            </section>
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/javaScript/main.js"></script>
+    
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
